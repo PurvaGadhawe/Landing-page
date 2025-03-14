@@ -1,10 +1,10 @@
 # Landing Page  
-This is a simple landing page created using HTML and CSS.  
+This is a minimalist and stylish fashion landing page designed using HTML and CSS.  
+I created this page just for practice purposes, focusing on basic concepts and revisiting my old skills.  
 
-## Features  
-- Responsive design  
-- Minimalistic layout  
-- Easy to customize  
+🚀 Features
+- Modern UI & Typography – Clean and elegant visual style.
+- Well-Structured Code – Easy to understand and modify.
 
 ## Usage  
 Clone this repository and open `index.html` in a browser.  
