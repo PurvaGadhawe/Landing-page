@@ -8,6 +8,7 @@ I created this page just for practice purposes, focusing on basic concepts and r
 
 ## Usage  
 Clone this repository and open `index.html` in a browser.  
+This project is created for to refresh my old skills.
 
 ## Author  
 Purva Gadhawe
