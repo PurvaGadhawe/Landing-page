@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg 17% 25%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: brown; */
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: blue;
+    background-image: url(img-1.jpg);
+    background-size: cover;
+    
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(138, 130, 130, 0.646);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: green; */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: whitesmoke; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#text-div h1{
+    font-size: 85px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    line-height: normal;
+    color: whitesmoke;
+    line-height: 78px;
+    
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    background-image:url(img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: translate(0, -50);
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(158, 153, 153, 0.267);
+
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: aqua; */
+    right: -18%;
+    top: 48%;
+    transform-origin: 0%, 0%;
+    /* transform: rotate(90deg); */
+}
+#vertical-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff7d;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 10px;
+    transform: rotate(90deg);
+    letter-spacing: 13px;
+    
+
+}
+#nav{
+    position: absolute;
+    width: 200px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 195px;
+    left: 20%;
+    top: 5%;
+}
+.face {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgba(0, 0, 0, 0.235);
+    border-style: dashed;
+    border-width: px;
+
+}
+.eye {
+    width: 6px;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.358);
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.eye.left {
+    left: 12px;
+    top: -10px;
+}
+.eye.right {
+    right: 12px;
+    top: -10px;
+}
+.mouth {
+    width: 25px;
+    height: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.386);
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: -10px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#nav h5{
+    font-size: 9px;
+    color: #ffffffa2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
